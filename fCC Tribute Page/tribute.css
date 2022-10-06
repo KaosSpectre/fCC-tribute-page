@@ -1,0 +1,55 @@
+html {
+	background: conic-gradient(
+		at 50% 0%,
+		black 25%,
+		rgba(0, 0, 0, 0.75) 50%,
+		black 75%
+	);
+}
+* {
+	color: white;
+	font-family: Helvetica, sans-serif;
+}
+a {
+	color: rgb(190, 190, 190);
+}
+a:active {
+	color: red;
+}
+.center {
+	margin: 0 auto;
+	text-align: center;
+}
+h1 {
+	font-size: 3rem;
+}
+
+#aka,
+#timeline-title {
+	font-size: 1.5rem;
+	margin: 45 auto;
+}
+li {
+	max-width: 450px;
+	margin: 10 auto;
+}
+hr {
+	border: 10px double rgb(0, 200, 200);
+}
+
+#timeline {
+	font-size: 1.5rem;
+	margin: 0 auto;
+	text-align: center;
+}
+#image {
+	max-width: 100%;
+	min-width: 200px;
+	display: block;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid black;
+	margin: 0 auto;
+	padding: 0;
+}
